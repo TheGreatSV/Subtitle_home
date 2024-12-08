@@ -19,11 +19,11 @@
             </ul>
         </nav>
     </header>
-
+<main>
     <section class="hero">
         <h1>Create and Edit Subtitles Effortlessly</h1>
         <p>Your go-to tool for generating and editing SRT files.</p>
-        <a href="srt-creator-editor.html" class="cta-button">Start Creating Subtitles</a>
+        <a href="https://creator.srtcreator.com" class="cta-button">Start Creating Subtitles</a>
     </section>
 
     <section class="features">
@@ -47,7 +47,7 @@
             </li>
         </ul>
     </section>
-
+</main>
     <footer>
         <div class="footer-content">
             <p>© 2024 Your Website Name. All rights reserved.</p>
@@ -67,6 +67,9 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f0f8ff; /* Light background */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 header {
@@ -186,5 +189,9 @@ footer nav ul li a {
 
 footer nav ul li a:hover {
     color: #003366; /* Change text color on hover */
+}
+
+main{
+    flex: 1;
 }
 </style>
