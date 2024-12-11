@@ -14,6 +14,7 @@
         <a href="/home">  <div class="logo">SRT Creator</div> </a>
         <nav>
             <ul>
+                <li class="hide-mobile"><a href="/home">Home</a></li>
                 <li><a href="/about.html">About</a></li>
                 <li><a href="/contact.html">Contact</a></li>
                 <li><a href="https://creator.srtcreator.com">Go to Creator</a></li>
@@ -216,5 +217,11 @@ footer nav ul li a:hover {
 
 main{
     flex: 1;
+}
+
+@media (max-width: 768px) {
+    .hide-mobile {
+        display: none;
+    }
 }
 </style>
